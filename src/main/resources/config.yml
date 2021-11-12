@@ -1,1 +1,5 @@
 deny: "&cServer has disabled the use of Enchanted Golden Apples"
+
+denyreload: "&cYou do not have permission to use this command!"
+
+reloadmessage: "&fConfig Reloaded!"

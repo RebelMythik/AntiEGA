@@ -1,6 +1,14 @@
-name: Preventenchantedapple
+name: AntiEGA
 version: '${project.version}'
-main: rebelmythik.preventenchantedapple.Preventenchantedapple
+main: rebelmythik.antiega.AntiEGA
 api-version: 1.17
 authors: [ RebelMythik ]
 description: Prevents eating enchanted apples
+
+commands:
+  egareload:
+permissions:
+  ega.reload:
+    description: Allows user to reload the config file
+  ega.bypass:
+    description: Allows players to eat enchanted golden apples
