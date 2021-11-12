@@ -1,0 +1,6 @@
+name: Preventenchantedapple
+version: '${project.version}'
+main: rebelmythik.preventenchantedapple.Preventenchantedapple
+api-version: 1.17
+authors: [ RebelMythik ]
+description: Prevents eating enchanted apples
