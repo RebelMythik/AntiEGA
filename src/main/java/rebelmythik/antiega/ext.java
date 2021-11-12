@@ -1,4 +1,4 @@
-package rebelmythik.AntiEGA;
+package rebelmythik.antiega;
 
 
 public class ext {

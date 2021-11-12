@@ -1,4 +1,4 @@
-package rebelmythik.AntiEGA;
+package rebelmythik.antiega;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -7,7 +7,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerItemConsumeEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-import rebelmythik.AntiEGA.ext;
 
 import java.util.EventListener;
 
