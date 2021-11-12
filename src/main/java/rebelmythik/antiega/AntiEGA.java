@@ -1,4 +1,4 @@
-package rebelmythik.preventenchantedapple;
+package rebelmythik.AntiEGA;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -7,10 +7,11 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerItemConsumeEvent;
 import org.bukkit.plugin.java.JavaPlugin;
+import rebelmythik.AntiEGA.ext;
 
 import java.util.EventListener;
 
-public final class Preventenchantedapple extends JavaPlugin implements EventListener, Listener {
+public final class AntiEGA extends JavaPlugin implements EventListener, Listener {
     ext exts = new ext();
 
 

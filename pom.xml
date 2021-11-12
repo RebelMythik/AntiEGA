@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Preventenchantedapple</name>
+    <name>AntiEGA</name>
 
     <description>Prevents eating enchanted apples</description>
     <properties>

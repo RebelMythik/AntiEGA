@@ -1,4 +1,4 @@
-package rebelmythik.preventenchantedapple;
+package rebelmythik.AntiEGA;
 
 
 public class ext {
