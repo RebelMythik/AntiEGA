@@ -18,3 +18,5 @@ Commands:
   * disables use of Enchanted Golden Apples
 * `/egareload`
   * reloads config
+
+Download on [SpigotMC](https://www.spigotmc.org/resources/antiega.97566/)
