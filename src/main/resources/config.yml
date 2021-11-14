@@ -1,5 +1,9 @@
-deny: "&cServer has disabled the use of Enchanted Golden Apples"
-
-denyreload: "&cYou do not have permission to use this command!"
-
-reloadmessage: "&fConfig Reloaded!"
+enabled: false
+messages:
+  deny: '&cServer has disabled the use of Enchanted Golden Apples'
+  no-perm: '&cYou do not have permission to use this command!'
+  reload-message: '&fConfig Reloaded!'
+  enable-message: '&aEnchanted Golden Apples were &2Enabled!'
+  already-enabled: '&cEnchanted Golden Apples are already Enabled!'
+  disable-message: '&aEnchanted Golden Apples were &4Disabled!'
+  already-disabled: '&cEnchanted Golden Apples are already Disabled!'

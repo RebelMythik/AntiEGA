@@ -7,8 +7,17 @@ description: Prevents eating enchanted apples
 
 commands:
   egareload:
+    description: reloads configs
+  egaenable:
+    description: enables golden apples server wide
+  egadisable:
+    description: disables use of golden apples server wide
 permissions:
   ega.reload:
     description: Allows user to reload the config file
   ega.bypass:
     description: Allows players to eat enchanted golden apples
+  ega.enable:
+    description: allows player to enable use of enchanted golden apples
+  ega.disable:
+    description: allows players to disable enchanted golden apples

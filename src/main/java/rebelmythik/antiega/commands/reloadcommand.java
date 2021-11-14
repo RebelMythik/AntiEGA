@@ -3,7 +3,6 @@ package rebelmythik.antiega.commands;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import rebelmythik.antiega.AntiEGA;
 import rebelmythik.antiega.ext;
 
@@ -18,15 +17,14 @@ public class reloadcommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(cmd.getName().equalsIgnoreCase("egareload")){
             if(!sender.hasPermission("ega.reload")) {
-
-                sender.sendMessage(exts.cm(plugin.getConfig().getString("denyreload")));
-
+                sender.sendMessage(exts.cm(plugin.getConfig().getString("messages.no-perm")));
+                return true;
             }
-            sender.sendMessage(exts.cm(plugin.getConfig().getString("reloadmessage")));
+            sender.sendMessage(exts.cm(plugin.getConfig().getString("messages.reload-message")));
             plugin.reloadConfig();
         }
 
-        return true;
+        return false;
 
     }
 
